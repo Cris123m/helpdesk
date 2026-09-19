@@ -1,4 +1,5 @@
 import frappe
+from frappe import _
 
 default_views = [
     {
@@ -35,7 +36,7 @@ default_views = [
         "is_customer_portal": 0,
         "is_default": 0,
         "is_standard": 1,
-        "label": "Recently Assigned Tickets",
+        "label": _("Recently Assigned Tickets"),
         "load_default_columns": 0,
         "modified": "2026-03-13 13:10:59.427339",
         "name": "STD-VIEW-RECENTLY-ASSIGNED-TICKETS",
@@ -81,7 +82,7 @@ default_views = [
         "is_customer_portal": 0,
         "is_default": 0,
         "is_standard": 1,
-        "label": "My Feedback",
+        "label": _("My Feedback"),
         "load_default_columns": 0,
         "modified": "2026-03-17 12:42:22.891952",
         "name": "STD-VIEW-ALL-FEEDBACK",
@@ -97,7 +98,6 @@ default_views = [
 
 
 def add_default_views(for_existing_sites=False):
-
     for view in default_views:
         if not frappe.db.exists("HD View", view["name"]):
             doc = frappe.get_doc(view)

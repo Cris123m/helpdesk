@@ -6767,3 +6767,984 @@ msgstr "{0} · Última actividad {1}"
 msgid "{} people reacted to your comment"
 msgstr ""
 
+
+#: desk/src/components/view-controls/Filter.vue:416
+msgid "%John%"
+msgstr "%John%"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:54
+#: desk/src/components/tag/Tags.vue:62
+msgid "+{0} more"
+msgstr "+{0} más"
+
+#: desk/src/components/view-controls/Filter.vue:411
+msgid "01/01/2022 to 01/31/2022"
+msgstr "01/01/2022 to 01/31/2022"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:293
+msgid "1 action"
+msgstr "1 acción"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:143
+msgid "1 action will be applied after sending the email"
+msgstr "Se aplicará 1 acción después de enviar el correo"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:84
+msgid "1 time"
+msgstr "1 vez"
+
+#: desk/src/pages/PersonaForm.vue:224
+msgid "A Frappe partner or consultant"
+msgstr "Un socio o consultor de Frappe"
+
+#: desk/src/pages/PersonaForm.vue:223
+msgid "A friend or colleague"
+msgstr "Un amigo o colega"
+
+#: desk/src/components/tag/Tags.vue:38 desk/src/components/tag/Tags.vue:43
+msgid "Add"
+msgstr "Añadir"
+
+#: desk/src/components/view-controls/Filter.vue:141
+msgid "Add Filter"
+msgstr "Añadir filtro"
+
+#: desk/src/components/Questionnaire.vue:266
+msgid "Add a few words so we can continue"
+msgstr "Añade unas palabras para continuar"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionsEditor.vue:88
+msgid "Add action"
+msgstr "Añadir acción"
+
+#: desk/src/components/modals/ShortcutsModal.vue:92
+msgid "Add tags"
+msgstr "Añadir etiquetas"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:58
+msgid "Agent replies"
+msgstr "Respuestas del agente"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:157
+msgid "Agent reply"
+msgstr "Respuesta del agente"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:70
+msgid "Agents involved"
+msgstr "Agentes involucrados"
+
+#: desk/src/pages/PersonaForm.vue:225
+msgid "An event or conference"
+msgstr "Un evento o conferencia"
+
+#: desk/src/pages/PersonaForm.vue:217
+msgid "Another Frappe product (ERPNext, Frappe Cloud, etc.)"
+msgstr "Otro producto de Frappe (ERPNext, Frappe Cloud, etc.)"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionsEditor.vue:6
+msgid "Applied to the ticket when this reply is sent"
+msgstr "Se aplica al ticket cuando se envía esta respuesta"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:205
+msgid "Applied {0} saved reply action(s)"
+msgstr "Se aplicaron {0} acciones de respuesta guardada"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:297
+msgid "Applies 1 action when sent"
+msgstr "Aplica 1 acción al enviarse"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:298
+msgid "Applies {0} actions when sent"
+msgstr "Aplica {0} acciones al enviarse"
+
+#: desk/src/components/EmailEditor.vue:412
+msgid "Applying \"{0}\" discards the reply you have now, along with its {1} action(s)."
+msgstr "Aplicar «{0}» descartará tu respuesta actual junto con sus {1} acciones."
+
+#: desk/src/components/ticket-agent/BulkAssignModal.vue:2
+#: desk/src/pages/ticket/Tickets.vue:143
+msgid "Assign"
+msgstr "Asignar"
+
+#: desk/src/components/ticket-agent/BulkAssignModal.vue:13
+msgid "Assign {0} tickets"
+msgstr "Asignar {0} tickets"
+
+#: desk/src/pages/home/components/RecentActivity.vue:105
+msgid "Assigned"
+msgstr "Asignado"
+
+#: desk/src/components/ticket-agent/BulkAssignModal.vue:53
+msgid "Assigned {0} tickets"
+msgstr "{0} tickets asignados"
+
+#: desk/src/pages/PersonaForm.vue:200
+msgid "Assigning tickets"
+msgstr "Asignar tickets"
+
+#: desk/src/components/EmailEditor.vue:163
+msgid "Attach file"
+msgstr "Adjuntar archivo"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:40
+msgid "Average time the customer took to reply to an agent"
+msgstr "Tiempo medio que tarda el cliente en responder a un agente"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:35
+msgid "Average time to reply after a customer message"
+msgstr "Tiempo medio de respuesta tras un mensaje del cliente"
+
+#: desk/src/pages/home/Home.vue:305
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:5
+msgid "Avg. Time Metrics"
+msgstr "Métricas de tiempo medio"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:33
+msgid "Avg. agent response gap"
+msgstr "Intervalo medio de respuesta del agente"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:38
+msgid "Avg. customer response gap"
+msgstr "Intervalo medio de respuesta del cliente"
+
+#: desk/src/components/ticket-agent/TicketContact.vue:38
+msgid "Call contact"
+msgstr "Llamar al contacto"
+
+#: desk/src/components/command-palette/CommandPalette.vue:261
+msgid "Clear"
+msgstr "Borrar"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:33
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:35
+msgid "Clear all actions"
+msgstr "Borrar todas las acciones"
+
+#: desk/src/components/command-palette/CommandPalette.vue:14
+msgid "Command Palette"
+msgstr "Paleta de comandos"
+
+#: desk/src/pages/home/components/RecentActivity.vue:103
+msgid "Commented"
+msgstr "Comentó"
+
+#: desk/src/pages/PersonaForm.vue:235
+msgid "Connect my support email"
+msgstr "Conectar mi correo de soporte"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:5
+msgid "Conversation Summary"
+msgstr "Resumen de la conversación"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:225
+msgid "Could not apply actions from the saved reply."
+msgstr "No se pudieron aplicar las acciones de la respuesta guardada."
+
+#: desk/src/pages/PersonaForm.vue:237
+msgid "Create my first ticket"
+msgstr "Crear mi primer ticket"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:237
+msgid "Created"
+msgstr "Creado"
+
+#: desk/src/components/ViewModal.vue:22
+msgid "Current icon"
+msgstr "Icono actual"
+
+#: desk/src/components/customer/NewCustomerDialog.vue:140
+msgid "Customer created · invitation sent to {0}"
+msgstr "Cliente creado · invitación enviada a {0}"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:156
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:548
+msgid "Customer message"
+msgstr "Mensaje del cliente"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:55
+msgid "Customer messages"
+msgstr "Mensajes del cliente"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:4
+msgid "Customer portal permissions have changed"
+msgstr "Han cambiado los permisos del portal de clientes"
+
+#: desk/src/components/layouts/CustomerPortalPermissionBanner.vue:10
+msgid "Customer portal update"
+msgstr "Actualización del portal de clientes"
+
+#: helpdesk/api/dashboard_tags.py:73
+msgid "Daily volume of the top {0} tags"
+msgstr "Volumen diario de las {0} etiquetas principales"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:10
+msgid "Earlier, every contact could see all the tickets of their company. Now, contacts only see the tickets they raised themselves."
+msgstr "Antes, cada contacto podía ver todos los tickets de su empresa. Ahora, los contactos solo ven los tickets que ellos mismos crearon."
+
+#: desk/src/components/view-controls/Filter.vue:128
+msgid "Empty - Choose a field to filter by"
+msgstr "Vacío: elige un campo para filtrar"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:73
+msgid "Existing contacts are being made customer managers in the background"
+msgstr "Los contactos existentes se están convirtiendo en gestores de clientes en segundo plano"
+
+#: desk/src/pages/PersonaForm.vue:239
+msgid "Explore the product first"
+msgstr "Explorar primero el producto"
+
+#: desk/src/components/ticket-agent/analytics/TicketAnalyticsTab.vue:21
+msgid "Failed to load analytics"
+msgstr "No se pudieron cargar las analíticas"
+
+#: desk/src/components/tag/Tags.vue:291
+msgid "Failed to update tags"
+msgstr "No se pudieron actualizar las etiquetas"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:7
+msgid "Field"
+msgstr "Campo"
+
+#: desk/src/components/view-controls/Filter.vue:6
+msgid "Filter"
+msgstr "Filtro"
+
+#: desk/src/pages/PersonaForm.vue:186
+msgid "Finding past conversations"
+msgstr "Encontrar conversaciones anteriores"
+
+#: desk/src/components/Questionnaire.vue:129
+msgid "Finish"
+msgstr "Finalizar"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:292
+msgid "First response"
+msgstr "Primera respuesta"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:318
+msgid "First response due"
+msgstr "Primera respuesta pendiente"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:346
+msgid "First response overdue"
+msgstr "Primera respuesta vencida"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:556
+msgid "Follow-up"
+msgstr "Seguimiento"
+
+#: desk/src/pages/PersonaForm.vue:215
+msgid "Frappe Discuss"
+msgstr "Frappe Discuss"
+
+#: desk/src/pages/PersonaForm.vue:128
+msgid "Freshdesk"
+msgstr "Freshdesk"
+
+#: desk/src/pages/PersonaForm.vue:212
+msgid "GitHub"
+msgstr "GitHub"
+
+#: desk/src/pages/PersonaForm.vue:213
+msgid "Google Ads"
+msgstr "Google Ads"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:26
+msgid "Hide actions"
+msgstr "Ocultar acciones"
+
+#: desk/src/pages/PersonaForm.vue:108
+msgid "How big is your support team?"
+msgstr "¿De cuántas personas es tu equipo de soporte?"
+
+#: desk/src/pages/PersonaForm.vue:209
+msgid "How did you hear about Frappe Helpdesk?"
+msgstr "¿Cómo conociste Frappe Helpdesk?"
+
+#: desk/src/pages/PersonaForm.vue:144
+msgid "How do your customers currently contact your support team?"
+msgstr "¿Cómo contactan actualmente tus clientes con tu equipo de soporte?"
+
+#: desk/src/pages/PersonaForm.vue:162
+msgid "How would you like your customers to create support tickets in Frappe Helpdesk?"
+msgstr "¿Cómo te gustaría que tus clientes creen tickets de soporte en Frappe Helpdesk?"
+
+#: desk/src/pages/PersonaForm.vue:172
+msgid "I'm not sure yet"
+msgstr "Todavía no lo sé"
+
+#: desk/src/pages/PersonaForm.vue:155
+msgid "In person"
+msgstr "En persona"
+
+#: desk/src/pages/PersonaForm.vue:129
+msgid "Intercom"
+msgstr "Intercom"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:60
+msgid "Internal comments"
+msgstr "Comentarios internos"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionValue.vue:68
+msgid "Internal note. Type / for commands"
+msgstr "Nota interna. Escribe / para ver los comandos"
+
+#: desk/src/pages/PersonaForm.vue:238
+msgid "Invite my support team"
+msgstr "Invitar a mi equipo de soporte"
+
+#: desk/src/pages/PersonaForm.vue:130
+msgid "Jira Service Management"
+msgstr "Jira Service Management"
+
+#: desk/src/components/view-controls/Filter.vue:425
+msgid "John Doe"
+msgstr "John Doe"
+
+#: desk/src/components/view-controls/Filter.vue:413
+msgid "John, Jane, Doe"
+msgstr "John, Jane, Doe"
+
+#: desk/src/pages/PersonaForm.vue:196
+msgid "Keeping track of customer requests"
+msgstr "Llevar un registro de las solicitudes de los clientes"
+
+#: desk/src/components/layouts/CustomerPortalPermissionBanner.vue:17
+msgid "Learn more"
+msgstr "Más información"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:23
+msgid "Learn more in the"
+msgstr "Más información en la"
+
+#: desk/src/pages/PersonaForm.vue:220
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: desk/src/pages/PersonaForm.vue:152 desk/src/pages/PersonaForm.vue:171
+msgid "Live chat"
+msgstr "Chat en vivo"
+
+#: desk/src/pages/ticket/MobileTicketAgent.vue:123
+msgid "Mail"
+msgstr "Correo"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:34
+msgid "Make all existing contacts customer managers"
+msgstr "Convertir a todos los contactos existentes en gestores de clientes"
+
+#: desk/src/components/ViewModal.vue:50
+msgid "Make it public"
+msgstr "Hacerla pública"
+
+#: desk/src/pages/PersonaForm.vue:182
+msgid "Managing customer conversations across channels"
+msgstr "Gestionar las conversaciones con clientes en varios canales"
+
+#: desk/src/pages/PersonaForm.vue:190
+msgid "Measuring team performance"
+msgstr "Medir el rendimiento del equipo"
+
+#: desk/src/pages/PersonaForm.vue:194
+msgid "Missing or delayed responses"
+msgstr "Respuestas ausentes o tardías"
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:81
+msgid "More Details"
+msgstr "Más detalles"
+
+#: helpdesk/api/dashboard_tags.py:47
+msgid "Most used tags in this period"
+msgstr "Etiquetas más usadas en este periodo"
+
+#: desk/src/pages/home/Home.vue:365
+#: desk/src/pages/home/components/RecentActivity.vue:6
+msgid "My Recent Activity"
+msgstr "Mi actividad reciente"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:187
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:302
+msgid "My Team(s)"
+msgstr "Mis equipos"
+
+#: desk/src/components/command-palette/CommandPalette.vue:146
+msgid "Navigate"
+msgstr "Navegar"
+
+#: desk/src/components/Questionnaire.vue:129
+msgid "Next"
+msgstr "Siguiente"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionsEditor.vue:77
+msgid "No actions yet. Add one to update the ticket when this reply is sent"
+msgstr "Aún no hay acciones. Añade una para actualizar el ticket cuando se envíe esta respuesta"
+
+#: desk/src/components/command-palette/CommandPalette.vue:246
+msgid "No commands found"
+msgstr "No se encontraron comandos"
+
+#: desk/src/pages/home/components/RecentActivity.vue:57
+msgid "No recent activity"
+msgstr "Sin actividad reciente"
+
+#: desk/src/components/command-palette/CommandPalette.vue:244
+msgid "No results for \"{0}\""
+msgstr "Sin resultados para «{0}»"
+
+#: desk/src/components/tag/Tags.vue:78
+msgid "No tags yet, type to create one"
+msgstr "Aún no hay etiquetas; escribe para crear una"
+
+#: desk/src/components/command-palette/CommandPalette.vue:245
+msgid "Nothing left in {0}"
+msgstr "No queda nada en {0}"
+
+#: desk/src/pages/PersonaForm.vue:126
+msgid "Notion"
+msgstr "Notion"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:16
+msgid "Only users with the role of "
+msgstr "Solo los usuarios con el rol de "
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:30
+msgid "Overview"
+msgstr "Resumen"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:616
+msgid "Paused {0} so far"
+msgstr "En pausa {0} hasta ahora"
+
+#: desk/src/pages/PersonaForm.vue:151
+msgid "Phone calls"
+msgstr "Llamadas telefónicas"
+
+#: desk/src/components/ViewModal.vue:43
+msgid "Pin to sidebar"
+msgstr "Fijar en la barra lateral"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:229
+msgid "Please apply the actions manually"
+msgstr "Aplica las acciones manualmente"
+
+#: desk/src/pages/ticket/MobileTicketAgent.vue:122
+msgid "Portal"
+msgstr "Portal"
+
+#. Label of the rank (Int) field in DocType 'HD Service Level Agreement'
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:57
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
+msgid "Rank"
+msgstr "Orden"
+
+#: desk/src/pages/PersonaForm.vue:222
+msgid "Reddit"
+msgstr "Reddit"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActionComment.vue:13
+msgid "Remove comment"
+msgstr "Quitar comentario"
+
+#: desk/src/components/command-palette/CommandPalette.vue:263
+msgid "Remove context"
+msgstr "Quitar contexto"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActionChip.vue:46
+msgid "Remove {0}"
+msgstr "Quitar {0}"
+
+#: desk/src/components/EmailEditor.vue:419
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: desk/src/components/EmailEditor.vue:411
+msgid "Replace saved reply"
+msgstr "Reemplazar la respuesta guardada"
+
+#: desk/src/components/ViewModal.vue:32
+msgid "Replace with an icon..."
+msgstr "Reemplazar con un icono…"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActionComment.vue:41
+msgid "Reset to default"
+msgstr "Restablecer el valor predeterminado"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:429
+msgid "Resolution due"
+msgstr "Resolución pendiente"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:429
+msgid "Resolution overdue"
+msgstr "Resolución vencida"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:713
+msgid "Resolved late"
+msgstr "Resuelto con retraso"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:292
+msgid "Responded late"
+msgstr "Respondido con retraso"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:228
+#: desk/src/components/ticket-agent/analytics/TicketAnalyticsTab.vue:23
+msgid "Retry"
+msgstr "Reintentar"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionsEditor.vue:67
+msgid "Row actions"
+msgstr "Acciones de la fila"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:67
+msgid "SLA changed"
+msgstr "SLA cambiado"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:154
+msgid "SLA met"
+msgstr "SLA cumplido"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:155
+msgid "SLA missed / longest wait"
+msgstr "SLA incumplido / espera más larga"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:619
+msgid "SLA paused"
+msgstr "SLA en pausa"
+
+#: desk/src/pages/PersonaForm.vue:132
+msgid "Salesforce Service Cloud"
+msgstr "Salesforce Service Cloud"
+
+#: desk/src/components/EmailEditor.vue:179
+msgid "Saved replies"
+msgstr "Respuestas guardadas"
+
+#: desk/src/pages/PersonaForm.vue:193
+msgid "Scaling support as we grow"
+msgstr "Ampliar el soporte a medida que crecemos"
+
+#: desk/src/components/command-palette/CommandPalette.vue:60
+msgid "Search commands"
+msgstr "Buscar comandos"
+
+#: desk/src/components/command-palette/CommandPalette.vue:59
+msgid "Search commands for {0}"
+msgstr "Buscar comandos para {0}"
+
+#: desk/src/components/tag/Tags.vue:15
+msgid "Search or create tags"
+msgstr "Buscar o crear etiquetas"
+
+#: desk/src/components/command-palette/CommandPalette.vue:266
+msgid "Search tickets or type a command…"
+msgstr "Busca tickets o escribe un comando…"
+
+#: desk/src/components/command-palette/CommandPalette.vue:243
+#: desk/src/components/command-palette/CommandPalette.vue:250
+msgid "Searching…"
+msgstr "Buscando…"
+
+#: desk/src/components/command-palette/CommandPalette.vue:266
+msgid "Search…"
+msgstr "Buscar…"
+
+#: desk/src/components/view-controls/Filter.vue:423
+msgid "Select a Value"
+msgstr "Selecciona un valor"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:9
+#: desk/src/components/ticket-agent/BulkEditModal.vue:121
+msgid "Select a field"
+msgstr "Selecciona un campo"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionsEditor.vue:38
+msgid "Select action"
+msgstr "Selecciona una acción"
+
+#: desk/src/components/ticket-agent/AssignTo.vue:221
+msgid "Select agents"
+msgstr "Selecciona agentes"
+
+#: desk/src/components/view-controls/Filter.vue:424
+msgid "Select an Option"
+msgstr "Selecciona una opción"
+
+#: desk/src/components/ViewModal.vue:33
+msgid "Select an icon..."
+msgstr "Selecciona un icono…"
+
+#: desk/src/components/Settings/SavedReplies/components/ActionValue.vue:32
+#: desk/src/components/Settings/SavedReplies/components/ActionValue.vue:56
+msgid "Select tags"
+msgstr "Selecciona etiquetas"
+
+#: desk/src/pages/PersonaForm.vue:109
+msgid "Select team size"
+msgstr "Selecciona el tamaño del equipo"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActionChip.vue:7
+#: desk/src/components/Settings/SavedReplies/components/ActionValue.vue:109
+#: desk/src/components/ticket-agent/BulkEditModal.vue:115
+msgid "Select {0}"
+msgstr "Seleccionar {0}"
+
+#: desk/src/components/ticket-agent/AssignTo.vue:45
+msgid "Set Assignee"
+msgstr "Definir asignado"
+
+#: desk/src/pages/PersonaForm.vue:236
+msgid "Set up a customer portal"
+msgstr "Configurar un portal de clientes"
+
+#: desk/src/pages/PersonaForm.vue:135
+msgid "Shared email inbox (Gmail, Outlook, etc.)"
+msgstr "Bandeja de entrada de correo compartida (Gmail, Outlook, etc.)"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:26
+msgid "Show actions"
+msgstr "Mostrar acciones"
+
+#: desk/src/components/ticket-agent/TicketFeedback.vue:20
+msgid "Show less"
+msgstr "Mostrar menos"
+
+#: desk/src/components/ticket-agent/TicketFeedback.vue:20
+msgid "Show more"
+msgstr "Mostrar más"
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:293
+msgid "Similar Tickets"
+msgstr "Tickets similares"
+
+#: desk/src/components/Questionnaire.vue:138
+msgid "Skip for now"
+msgstr "Omitir por ahora"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:210
+msgid "Skipped {0} saved reply action(s) that are no longer valid"
+msgstr "Se omitieron {0} acciones de respuesta guardada que ya no son válidas"
+
+#: desk/src/pages/PersonaForm.vue:154
+msgid "Social media"
+msgstr "Redes sociales"
+
+#: desk/src/pages/ticket/MobileTicketAgent.vue:117
+msgid "Source"
+msgstr "Origen"
+
+#: desk/src/components/ticket/TicketMergeModal.vue:47
+msgid "Source and target tickets which are to be merged cannot be the same."
+msgstr "Los tickets de origen y destino que se van a combinar no pueden ser el mismo."
+
+#: desk/src/pages/PersonaForm.vue:125
+msgid "Spreadsheets"
+msgstr "Hojas de cálculo"
+
+#: desk/src/pages/PersonaForm.vue:149
+msgid "Support portal"
+msgstr "Portal de soporte"
+
+#: desk/src/components/erpnext-integration/ERPNextCustomerSyncButton.vue:14
+msgid "Sync Customers with ERPNext"
+msgstr "Sincronizar clientes con ERPNext"
+
+#: helpdesk/api/dashboard_tags.py:48
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: helpdesk/api/dashboard_tags.py:72
+msgid "Tag Trend"
+msgstr "Tendencia de etiquetas"
+
+#: desk/src/components/tag/Tags.vue:234 helpdesk/api/tags.py:58
+msgid "Tag cannot contain commas"
+msgstr "Las etiquetas no pueden contener comas"
+
+#: helpdesk/api/tags.py:55
+msgid "Tag label is required"
+msgstr "La etiqueta es obligatoria"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:69
+msgid "Team changed"
+msgstr "Se cambió el equipo"
+
+#: desk/src/pages/PersonaForm.vue:101
+msgid "Tell us about your organization"
+msgstr "Cuéntanos sobre tu organización"
+
+#: desk/src/components/Questionnaire.vue:25
+msgid "This helps us personalize your Helpdesk experience."
+msgstr "Esto nos ayuda a personalizar tu experiencia en Helpdesk."
+
+#: desk/src/pages/PersonaForm.vue:169
+msgid "Through a support portal"
+msgstr "A través de un portal de soporte"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:7
+msgid "Ticket Timeline"
+msgstr "Cronología del ticket"
+
+#: desk/src/components/ticket/TicketMergeModal.vue:34
+msgid "Ticket must be Open or Paused."
+msgstr "El ticket debe estar abierto o en pausa."
+
+#: desk/src/components/ticket/TicketMergeModal.vue:40
+msgid "Ticket must not already be merged."
+msgstr "El ticket no debe estar ya combinado."
+
+#: desk/src/pages/ticket/TicketCustomer.vue:298
+msgid "Ticket updated succesfully."
+msgstr "Ticket actualizado correctamente."
+
+#: helpdesk/api/ticket_analytics.py:47
+msgid "Ticket {0} not found."
+msgstr "Ticket {0} no encontrado."
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:285
+msgid "Tickets recently raised by this contact/customer"
+msgstr "Tickets creados recientemente por este contacto o cliente"
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:294
+msgid "Tickets with similar queries"
+msgstr "Tickets con consultas similares"
+
+#: desk/src/pages/home/components/RecentActivity.vue:58
+msgid "Tickets you act on will show up here"
+msgstr "Los tickets en los que actúes aparecerán aquí"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:45
+msgid "Time on hold with the SLA clock paused"
+msgstr "Tiempo en espera con el reloj del SLA en pausa"
+
+#: helpdesk/api/dashboard_tags.py:46
+msgid "Top Tags"
+msgstr "Etiquetas principales"
+
+#: desk/src/components/ticket-agent/analytics/AnalyticsMetricCards.vue:43
+msgid "Total hold time"
+msgstr "Tiempo total en espera"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:27
+msgid "Update {0} tickets"
+msgstr "Actualizar {0} tickets"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:155
+msgid "Updated {0} of {1} tickets"
+msgstr "{0} de {1} tickets actualizados"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:158
+#: desk/src/components/ticket-agent/BulkEditModal.vue:170
+msgid "Updated {0} tickets"
+msgstr "{0} tickets actualizados"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:148
+msgid "Updating {0} tickets…"
+msgstr "Actualizando {0} tickets…"
+
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:438
+msgid "Values can't be empty"
+msgstr "Los valores no pueden estar vacíos"
+
+#: desk/src/pages/PersonaForm.vue:170
+msgid "Via WhatsApp"
+msgstr "Por WhatsApp"
+
+#: desk/src/pages/PersonaForm.vue:168
+msgid "Via email"
+msgstr "Por correo electrónico"
+
+#: desk/src/pages/home/components/RecentActivity.vue:104
+msgid "Viewed"
+msgstr "Visto"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActionComment.vue:34
+msgid "Visible to your team only, never sent to the customer."
+msgstr "Visible solo para tu equipo; nunca se envía al cliente."
+
+#: desk/src/pages/PersonaForm.vue:133
+msgid "We don't use any helpdesk yet"
+msgstr "Aún no usamos ningún helpdesk"
+
+#: desk/src/components/layouts/CustomerPortalPermissionBanner.vue:13
+msgid "We have changed how customer portal permissions work"
+msgstr "Hemos cambiado el funcionamiento de los permisos del portal de clientes"
+
+#: desk/src/pages/PersonaForm.vue:153
+msgid "Web form"
+msgstr "Formulario web"
+
+#: desk/src/pages/PersonaForm.vue:244
+msgid "Welcome to Frappe Helpdesk"
+msgstr "Te damos la bienvenida a Frappe Helpdesk"
+
+#: desk/src/pages/PersonaForm.vue:122
+msgid "What do you currently use to manage customer support?"
+msgstr "¿Qué usas actualmente para gestionar la atención al cliente?"
+
+#: desk/src/pages/PersonaForm.vue:103
+msgid "What is your organization's name?"
+msgstr "¿Cómo se llama tu organización?"
+
+#: desk/src/pages/PersonaForm.vue:205
+msgid "What makes support hard right now?"
+msgstr "¿Qué dificulta la atención al cliente en este momento?"
+
+#: desk/src/pages/PersonaForm.vue:232
+msgid "What would you like to do first in Frappe Helpdesk?"
+msgstr "¿Qué te gustaría hacer primero en Frappe Helpdesk?"
+
+#: desk/src/pages/PersonaForm.vue:177
+msgid "What's your biggest support challenge today?"
+msgstr "¿Cuál es tu mayor reto de soporte hoy?"
+
+#: desk/src/pages/PersonaForm.vue:150
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:65
+msgid "When more than one policy matches, the lower rank is applied first. 0 means unranked, and is applied last."
+msgstr "Cuando varias políticas coinciden, se aplica primero la de menor orden. 0 significa sin clasificar y se aplica al final."
+
+#: desk/src/pages/PersonaForm.vue:228
+msgid "Where did you hear about us?"
+msgstr "¿Dónde nos conociste?"
+
+#: desk/src/pages/PersonaForm.vue:158
+msgid "Which channel do they use?"
+msgstr "¿Qué canal usan?"
+
+#: desk/src/pages/PersonaForm.vue:140
+msgid "Which tool does your team use?"
+msgstr "¿Qué herramienta usa tu equipo?"
+
+#: desk/src/pages/PersonaForm.vue:221
+msgid "X (Twitter)"
+msgstr "X (Twitter)"
+
+#: desk/src/components/view-controls/Filter.vue:422
+msgid "Yes"
+msgstr "Sí"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:37
+msgid "You won't see this notice again."
+msgstr "No volverás a ver este aviso."
+
+#: desk/src/pages/PersonaForm.vue:214
+msgid "YouTube"
+msgstr "YouTube"
+
+#: desk/src/pages/PersonaForm.vue:127
+msgid "Zendesk"
+msgstr "Zendesk"
+
+#: desk/src/pages/PersonaForm.vue:131
+msgid "Zoho Desk"
+msgstr "Zoho Desk"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:21
+msgid "can see every ticket of their company and manage its contacts."
+msgstr "puede ver todos los tickets de su empresa y gestionar sus contactos."
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:628
+msgid "clock resumes when the ticket reopens"
+msgstr "el reloj se reanuda cuando se reabre el ticket"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:610
+msgid "clock stopped"
+msgstr "reloj detenido"
+
+#: desk/src/components/layouts/CustomerPortalPermissionDialog.vue:28
+msgid "documentation"
+msgstr "documentación"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:728
+msgid "due {0}"
+msgstr "vence {0}"
+
+#: desk/src/pages/PersonaForm.vue:104
+msgid "e.g. Acme Inc."
+msgstr "p. ej., Acme Inc."
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:515
+msgid "next day"
+msgstr "al día siguiente"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:301
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:634
+msgid "pending"
+msgstr "pendiente"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:621
+msgid "since {0}"
+msgstr "desde {0}"
+
+#: desk/src/components/ticket-agent/TicketContact.vue:33
+msgid "via Email"
+msgstr "por correo"
+
+#: desk/src/components/ticket-agent/TicketContact.vue:33
+msgid "via Portal"
+msgstr "por el portal"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:293
+msgid "{0} actions"
+msgstr "{0} acciones"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:140
+msgid "{0} actions after sending"
+msgstr "{0} acciones tras el envío"
+
+#: desk/src/components/SavedReplyActions/SavedReplyActions.vue:144
+msgid "{0} actions will be applied after sending the email"
+msgstr "Se aplicarán {0} acciones después de enviar el correo"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:515
+msgid "{0} days"
+msgstr "{0} días"
+
+#: desk/src/components/ticket-agent/BulkEditModal.vue:126
+msgid "{0} is required"
+msgstr "{0} es obligatorio"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:549
+msgid "{0} replied"
+msgstr "{0} respondió"
+
+#: desk/src/components/command-palette/CommandPalette.vue:252
+msgid "{0} results"
+msgstr "{0} resultados"
+
+#: desk/src/components/ticket-agent/analytics/ConversationSummary.vue:84
+msgid "{0} times"
+msgstr "{0} veces"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:553
+msgid "{0} wait"
+msgstr "espera de {0}"
+
+#: desk/src/components/ticket-agent/analytics/TicketTimeline.vue:553
+msgid "{0} · longest wait"
+msgstr "{0} · espera más larga"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:8 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} pasos completados"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:28 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Skip all"
+msgstr "Omitir todo"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:13 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Getting started"
+msgstr "Primeros pasos"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Help/HelpModal.vue:116,137 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Help centre"
+msgstr "Centro de ayuda"
+
+#: helpdesk/setup/default_views.py:38
+msgid "Recently Assigned Tickets"
+msgstr "Tickets asignados recientemente"
+
+#: helpdesk/setup/default_views.py:84
+msgid "My Feedback"
+msgstr "Mis comentarios"

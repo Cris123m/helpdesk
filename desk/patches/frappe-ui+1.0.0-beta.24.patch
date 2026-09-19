@@ -1,3 +1,114 @@
+diff --git a/node_modules/frappe-ui/frappe/Help/HelpModal.vue b/node_modules/frappe-ui/frappe/Help/HelpModal.vue
+index 3e17c76..a7ccda3 100644
+--- a/node_modules/frappe-ui/frappe/Help/HelpModal.vue
++++ b/node_modules/frappe-ui/frappe/Help/HelpModal.vue
+@@ -67,6 +67,17 @@ import { minimize } from '../Help/help'
+ import { onMounted, computed } from 'vue'
+ import FeatherIcon from '../../src/components/FeatherIcon.vue'
+ 
++// Deployment-fork-only i18n helper: the lib ships no translator, so reuse the
++// app's window.__ when present (desk/src/translation.ts) and fall back to the
++// source string with {n} placeholder support otherwise.
++const __ = window.__ || ((message, ...args) => {
++  const values = args.flat()
++  if (!values.length) return message
++  return message.replace(/{(\d+)}/g, (match, index) =>
++    values[Number(index)] === undefined ? match : String(values[Number(index)]),
++  )
++})
++
+ const props = defineProps({
+   appName: {
+     type: String,
+@@ -113,7 +124,7 @@ const headingTitle = computed(() => {
+   if (!isOnboardingStepsCompleted.value && !showHelpCenter.value) {
+     return 'Getting started'
+   } else if (showHelpCenter.value) {
+-    return 'Help center'
++    return __('Help centre')
+   }
+ })
+ 
+@@ -134,7 +145,7 @@ const footerItems = computed(() => {
+   let items = [
+     {
+       icon: HelpIcon,
+-      label: 'Help centre',
++      label: __('Help centre'),
+       onClick: () => {
+         syncStatus()
+         showHelpCenter.value = true
+diff --git a/node_modules/frappe-ui/frappe/Onboarding/GettingStartedBanner.vue b/node_modules/frappe-ui/frappe/Onboarding/GettingStartedBanner.vue
+index 425d1ee..b5f3314 100644
+--- a/node_modules/frappe-ui/frappe/Onboarding/GettingStartedBanner.vue
++++ b/node_modules/frappe-ui/frappe/Onboarding/GettingStartedBanner.vue
+@@ -10,7 +10,7 @@
+       <StepsIcon class="h-4 my-0.5 shrink-0" />
+       <div class="flex flex-col text-p-sm gap-0.5">
+         <div class="font-medium">
+-          {{ 'Getting started' }}
++          {{ __('Getting started') }}
+         </div>
+         <div class="text-ink-gray-7">
+           {{ `${stepsCompleted}/${totalSteps} steps` }}
+@@ -63,6 +63,17 @@ import { useOnboarding } from './onboarding'
+ import { showHelpCenter } from '../HelpCenter/helpCenter'
+ import { showHelpModal, minimize } from '../Help/help'
+ 
++// Deployment-fork-only i18n helper: the lib ships no translator, so reuse the
++// app's window.__ when present (desk/src/translation.ts) and fall back to the
++// source string with {n} placeholder support otherwise.
++const __ = window.__ || ((message, ...args) => {
++  const values = args.flat()
++  if (!values.length) return message
++  return message.replace(/{(\d+)}/g, (match, index) =>
++    values[Number(index)] === undefined ? match : String(values[Number(index)]),
++  )
++})
++
+ const props = defineProps({
+   isSidebarCollapsed: {
+     type: Boolean,
+diff --git a/node_modules/frappe-ui/frappe/Onboarding/OnboardingSteps.vue b/node_modules/frappe-ui/frappe/Onboarding/OnboardingSteps.vue
+index 5f4b847..6098e0e 100644
+--- a/node_modules/frappe-ui/frappe/Onboarding/OnboardingSteps.vue
++++ b/node_modules/frappe-ui/frappe/Onboarding/OnboardingSteps.vue
+@@ -5,7 +5,7 @@
+       {{ 'Welcome to ' + title }}
+     </div>
+     <div class="text-p-base font-normal">
+-      {{ `${stepsCompleted}/${totalSteps} steps completed` }}
++      {{ __("{0}/{1} steps completed", stepsCompleted, totalSteps) }}
+     </div>
+   </div>
+   <div class="flex flex-col gap-2.5 overflow-hidden">
+@@ -25,7 +25,7 @@
+         <Button
+           v-if="completedPercentage != 100"
+           variant="ghost"
+-          :label="'Skip all'"
++          :label="__('Skip all')"
+           @click="() => skipAll(afterSkipAll)"
+         />
+       </div>
+@@ -81,6 +81,17 @@ import Tooltip from '../../src/components/Tooltip/Tooltip.vue'
+ import Button from '../../src/components/Button/Button.vue'
+ import Badge from '../../src/components/Badge/Badge.vue'
+ 
++// Deployment-fork-only i18n helper: the lib ships no translator, so reuse the
++// app's window.__ when present (desk/src/translation.ts) and fall back to the
++// source string with {n} placeholder support otherwise.
++const __ = window.__ || ((message, ...args) => {
++  const values = args.flat()
++  if (!values.length) return message
++  return message.replace(/{(\d+)}/g, (match, index) =>
++    values[Number(index)] === undefined ? match : String(values[Number(index)]),
++  )
++})
++
+ const props = defineProps({
+   appName: {
+     type: String,
 diff --git a/node_modules/frappe-ui/src/components/MultiSelect/MultiSelect.vue b/node_modules/frappe-ui/src/components/MultiSelect/MultiSelect.vue
 index b8d1d2b..56d6e3c 100644
 --- a/node_modules/frappe-ui/src/components/MultiSelect/MultiSelect.vue
