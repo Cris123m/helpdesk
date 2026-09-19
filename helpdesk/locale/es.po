@@ -7741,6 +7741,50 @@ msgstr "Primeros pasos"
 msgid "Help centre"
 msgstr "Centro de ayuda"
 
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:5 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Welcome to {0}"
+msgstr "Bienvenido a {0}"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:14 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "{0}% completed"
+msgstr "{0} % completado"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:22 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Reset all"
+msgstr "Restablecer todo"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:64 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Skip"
+msgstr "Omitir"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/OnboardingSteps.vue:140 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "You need to complete \"{0}\" first."
+msgstr "Primero debes completar \"{0}\"."
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:16 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} pasos"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:25 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "You are all set"
+msgstr "Todo listo"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:40 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "All steps are completed successfully"
+msgstr "Todos los pasos se completaron correctamente"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:45 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Start now"
+msgstr "Comenzar ahora"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Onboarding/GettingStartedBanner.vue:45 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Continue"
+msgstr "Continuar"
+
+#: frappe-ui@1.0.0-beta.24:frappe/Help/HelpModal.vue:135 (via desk/patches/frappe-ui+1.0.0-beta.24.patch)
+msgid "Reset onboarding steps"
+msgstr "Restablecer pasos de incorporación"
+
 #: helpdesk/setup/default_views.py:38
 msgid "Recently Assigned Tickets"
 msgstr "Tickets asignados recientemente"
