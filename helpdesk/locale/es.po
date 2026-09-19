@@ -4122,7 +4122,7 @@ msgstr ""
 #: desk/src/pages/home/components/PendingTickets.vue:234
 #: desk/src/pages/home/components/PendingTickets.vue:238
 msgid "Pending Tickets"
-msgstr ""
+msgstr "Tickets pendientes"
 
 #: helpdesk/api/dashboard.py:564
 msgid "Percentage of total tickets by channel"
